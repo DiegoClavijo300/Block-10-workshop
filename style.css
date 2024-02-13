@@ -1,0 +1,55 @@
+.boxes {
+    display: flex;
+    width: 100%;
+}
+.boxes>div {
+    background-color: aqua;
+    width: 33%;
+    height: 250px;
+    margin: 10px;
+}
+#buttom-box {
+    background-color: aqua;
+    height: 580px;
+    width: 99%;
+    margin: 10px
+}
+.arrow-up {
+    width: 0; 
+    height: 45pt; 
+    border-left: 220px solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 520px solid orange;
+    position: absolute;
+    z-index: 1;
+    right: 10px 
+  }
+  .arrow-up1 {
+    width: 0; 
+    height: 0; 
+    border-left: 260px solid transparent;
+    border-right: 260px solid transparent;
+    border-bottom: 580px solid yellowgreen;
+    position: absolute;
+    z-index: 0;
+    right: 200px;
+  }
+  .fa-person {
+    line-height: 8em;
+    position: relative;
+    z-index: 1;
+}
+.circle0 {
+    line-height: 2em;
+    margin-left: 200px;
+    position: absolute;
+}
+.circle1 {
+    line-height: 60px;
+    margin-left: 20px;
+}
+.circle2 {
+    line-height: 590px;
+    position: absolute;
+    margin-left: 400px;
+}
