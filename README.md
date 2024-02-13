@@ -1,4 +1,4 @@
-Picasso painting 
-flex boxes and triangles to the right made with html & css
-circles and people icons by font awesome
+Picasso painting
+html painting 
+css for styling 
 form in html
