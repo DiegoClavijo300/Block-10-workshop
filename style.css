@@ -5,51 +5,142 @@
 .boxes>div {
     background-color: aqua;
     width: 33%;
-    height: 250px;
+    height: 25vh;
     margin: 10px;
 }
-#buttom-box {
+#bottom-box {
     background-color: aqua;
-    height: 580px;
+    height: 65vh;
     width: 99%;
     margin: 10px
 }
 .arrow-up {
+    top: 7vh;
     width: 0; 
-    height: 45pt; 
-    border-left: 220px solid transparent;
-    border-right: 220px solid transparent;
+    height: 0; 
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
     border-bottom: 520px solid orange;
-    position: absolute;
+    position: relative;
     z-index: 1;
-    right: 10px 
+    left: 142vh
   }
   .arrow-up1 {
     width: 0; 
     height: 0; 
-    border-left: 260px solid transparent;
-    border-right: 260px solid transparent;
-    border-bottom: 580px solid yellowgreen;
-    position: absolute;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 494px solid yellowgreen;
+    position: relative;
     z-index: 0;
-    right: 200px;
+    left: 120vh;
+    bottom: 48vh;
   }
   .fa-person {
-    line-height: 8em;
+    bottom: 63vh;
     position: relative;
     z-index: 1;
+    font-size: 15vh;
 }
 .circle0 {
-    line-height: 2em;
-    margin-left: 200px;
+    top: 10vh;
+    margin-left: 15vh;
     position: absolute;
+    font-size: 15vh;
+    color: rgba(255, 255, 0, 0.916);
 }
 .circle1 {
-    line-height: 60px;
-    margin-left: 20px;
+    top: 4vh;
+    margin-left: 3vh;
+    font-size: 5vh;
+    color:coral
 }
 .circle2 {
-    line-height: 590px;
+    top: 25vh;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 45vh;
+    font-size: 15vh;
+    color: coral;
+}
+.fa-person:nth-child(even) {color: blueviolet;}  
+@media(max-width:1680px) {
+    .fa-person {
+        font-size: 150px;
+        bottom: 285px;
+    }
+    .arrow-up{
+       width: 0;
+       height: 0;
+       border-left: 205px solid transparent;
+       border-right: 205px solid transparent;
+        border-bottom: 425px solid orange;     
+        left: 1235px;
+        top: 258px;
+    }
+    .arrow-up1{
+        width: 0;
+       height: 0;
+       border-left: 185px solid transparent;
+       border-right: 185px solid transparent;
+        border-bottom: 395px solid yellowgreen;
+        bottom: 136px;
+        left: 1130px;
+    }
+    .circle2{
+        left: 10px
+    }
+}
+@media(max-width:1024px) {
+    .fa-person {
+        font-size: 75px;
+        bottom: 315px;
+    }
+    .arrow-up{
+       width: 0;
+       height: 0;
+       border-left: 185px solid transparent;
+       border-right: 185px solid transparent;
+        border-bottom: 375px solid orange;     
+        left: 630px;
+        top: 125px;
+    }
+    .arrow-up1{
+        width: 0;
+       height: 0;
+       border-left: 165px solid transparent;
+       border-right: 165px solid transparent;
+        border-bottom: 365px solid yellowgreen;
+        bottom: 240px;
+        left: 520px;
+    }
+    .circle2{
+        left: -60px
+    }
+    @media(max-width:480px) {
+        .fa-person {
+            font-size: 35px;
+            bottom: 85px;
+        }
+        .arrow-up{
+           width: 0;
+           height: 0;
+           border-left: 45px solid transparent;
+           border-right: 45px solid transparent;
+            border-bottom: 135px solid orange;     
+            left: 370px;
+            top: 73px;
+        }
+        .arrow-up1{
+            width: 0;
+           height: 0;
+           border-left: 45px solid transparent;
+           border-right: 45px solid transparent;
+            border-bottom: 125px solid yellowgreen;
+            bottom: 51px;
+            left: 300px;
+        }
+        .circle2{
+            left: 0px
+        }
+    }
 }
